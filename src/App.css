@@ -1,0 +1,25 @@
+.App {
+  margin: 3rem;
+  flex-flow: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-flow: row wrap;
+  align-content: space-between;
+  justify-content: center;
+}
+
+.country {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 20rem;
+  height: 15rem;
+  box-shadow: 5px 10px #888888;
+  flex-flow: column;
+  margin: 2rem;
+}
